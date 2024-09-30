@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PikaChat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pikachat</h1>
+    <div class="nav">
+        <a href="#">Login</a>
+        <a href="#">Settings</a>
+    </div>
+</header>
+
+<div class="container">
+   
+    <div class="post-section">
+        <h2>Create a Post</h2>
+        <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+        <input type="text" id="post-tags" placeholder="Tag people (comma separated)">
+        <button onclick="createPost()">Post</button>
+    </div>
+
+    <div class="chat-section">
+        <h2>Chat</h2>
+        <ul id="chat-box">
+            <!-- Chat messages will appear here -->
+        </ul>
+        <textarea id="chat-input" placeholder="Type a message..."></textarea>
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <div class="post-feed" id="post-feed">
+      
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

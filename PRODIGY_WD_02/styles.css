@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 400px;
+  padding: 40px;
+  background-color: rgb(36, 6, 36);
+  box-shadow: 0 0 15px rgba(219, 206, 206, 1);
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  font-family: cursive,sans-serif;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #5cb85c;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+#login-page, #app {
+  max-width: 800px;
+  margin: 0 auto;
+}

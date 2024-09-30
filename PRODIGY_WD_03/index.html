@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Shopping.com</h1>
+        </div>
+        <div class="header-right">
+            <a href="#">Login</a>
+            <a href="#">Filter</a>
+            <a href="#">Cart</a>
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <section class="image-section">
+        <div class="image-container">
+            <img src="Container-1.png" alt="Container 1">
+            <p>Container 1 - $150</p>
+            <button onclick="addToCart(150, 'Container 1')">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img src="Container-2.png" alt="Container 2">
+            <p>Container 2 - $250</p>
+            <button onclick="addToCart(250, 'Container 2')">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img src="Container-3.png" alt="Container 3">
+            <p>Container 3 - $350</p>
+            <button onclick="addToCart(350, 'Container 3')">Add to Cart</button>
+        </div>
+        <div class="image-container">
+            <img src="Container-4.png" alt="Container 4">
+            <p>Container 4 - $450</p>
+            <button onclick="addToCart(450, 'Container 4')">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Order Details: <span id="order-details">No items ordered yet.</span></p>
+        <p>Total Amount: <span id="total-amount">$0.00</span></p>
+        <button onclick="buyNow()">Buy Now</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
